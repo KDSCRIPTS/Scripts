@@ -1,0 +1,45 @@
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+Notification:Notify(
+    {Title = "RAINBOW FRIENDS CHAPTER 2", Description = "LOADING THE SCRIPT 10%"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 2, Type = "default"}
+)
+wait(5)	
+
+Notification:Notify(
+    {Title = "RAINBOW FRIENDS CHAPTER 2", Description = "LOADING THE SCRIPT 25%"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 3, Type = "default"}
+)
+wait(5)	
+
+Notification:Notify(
+    {Title = "RAINBOW FRIENDS CHAPTER 2", Description = "LOADING THE SCRIPT 50%"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 2, Type = "default"}
+)
+wait(5)	
+
+
+Notification:Notify(
+    {Title = "RAINBOW FRIENDS CHAPTER 2", Description = "LOADING THE SCRIPT 75%"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 2, Type = "default"}
+)
+wait(5)	
+
+
+Notification:Notify(
+    {Title = "RAINBOW FRIENDS CHAPTER 2", Description = "LOADING THE SCRIPT 90%"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 2, Type = "default"}
+)
+wait(5)	
+
+
+
+Notification:Notify(
+    {Title = "RAINBOW FRIENDS CHAPTER 2", Description = "LOADING THE SCRIPT 99%"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 2, Type = "default"}
+)
+wait(3)	
+
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/KDSCRIPTS/Scripts/main/Rainbow%20Friends/Rainbow%20Friends%20(OBFUSCATED)'),true))()
